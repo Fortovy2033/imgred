@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <Optimize>true</Optimize>
+    <Deterministic>true</Deterministic>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <MaxCpuCount>0</MaxCpuCount>
+
+    <RestoreParallel>true</RestoreParallel>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <EnableSourceControlManagerQueries>false</EnableSourceControlManagerQueries>
+
+    <PublishAot>true</PublishAot>
+    <StripSymbols>true</StripSymbols>
+    <IlcOptimizationPreference>Speed</IlcOptimizationPreference>
+    <IlcFoldIdenticalCode>true</IlcFoldIdenticalCode>
+    <IlcInstructionSet>native</IlcInstructionSet>
+
+    <PublishTrimmed>true</PublishTrimmed>
+    <TrimMode>link</TrimMode>
+    <TrimImplicitlyDefinedAssemblies>true</TrimImplicitlyDefinedAssemblies>
+    <EnableTrimAnalyzer>true</EnableTrimAnalyzer>
+
+    <InvariantGlobalization>true</InvariantGlobalization>
+
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <ReadyToRunUseCrossgen2>true</ReadyToRunUseCrossgen2>
+    <ReadyToRunComposite>true</ReadyToRunComposite>
+
+    <OptimizationPreference>Speed</OptimizationPreference>
+    <TieredPGO>true</TieredPGO>
+    <UseSystemResourceKeys>true</UseSystemResourceKeys>
+
+    <IlcDisableReflection>true</IlcDisableReflection>
+    <IlcGenerateCompleteTypeMetadata>false</IlcGenerateCompleteTypeMetadata>
+
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>portable</DebugType>
+
+    <EmitCompilerGeneratedFiles>false</EmitCompilerGeneratedFiles>
+  </PropertyGroup>
+
+</Project>
