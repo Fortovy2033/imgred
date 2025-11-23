@@ -1,3 +1,5 @@
 bin/
 obj/
 imgred.sln
+output.bmp
+packages.lock.json
