@@ -5,6 +5,9 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
 
     <Optimize>true</Optimize>
     <Deterministic>true</Deterministic>
@@ -16,7 +19,6 @@
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
     <EnableSourceControlManagerQueries>false</EnableSourceControlManagerQueries>
 
-    <PublishAot>true</PublishAot>
     <StripSymbols>true</StripSymbols>
     <IlcOptimizationPreference>Speed</IlcOptimizationPreference>
     <IlcFoldIdenticalCode>true</IlcFoldIdenticalCode>
