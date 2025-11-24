@@ -13,6 +13,8 @@ namespace IMGRED
 
     public static CLIArgs Parse(string[] args)
     {
+      if (args[0]=="--help")
+        throw new ArgumentException($"{Pattern}");
       if (args.Length < 2)
         throw new ArgumentException($"Too few arguments.\n{Pattern}");
       else if (args.Length > 3)
